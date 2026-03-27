@@ -1,0 +1,50 @@
+# Secrets
+.env
+.env.*
+*.env
+.admin_secret
+licenses.db
+
+# Build artifacts
+dist/
+build/venv/
+
+# Bot runtime
+.bot_pid
+.bar_cache/
+logs/
+*.log
+
+# Temp/raw data
+data_new_raw/
+data_41day/
+test_dbn_read.py
+backtest_4yr_v2.py
+
+# Data / cache
+*.pkl
+*.parquet
+*.h5
+
+# State files
+*_state.json
+ptnut_state.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.wrangler/
+data_new/NQ_prices.npy
+data_new/NQ_times.npy
+data_es/
